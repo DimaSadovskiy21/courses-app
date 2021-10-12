@@ -34,3 +34,19 @@
 	color: var(--white);
 	background: var(--primary);
 }
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.down {
+	transition: all 0.5s;
+	transform: rotate(90deg);
+}
+
+.primary svg,
+.ghost:hover svg {
+	fill: var(--white);
+}

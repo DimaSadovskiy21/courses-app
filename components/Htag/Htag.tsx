@@ -13,5 +13,4 @@ export const Htag = ({ tag, children }: HtagPropsType): JSX.Element => {
         default:
             return <></>;
     }
-
-}
+};
